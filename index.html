@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>123</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <button id="button1">Заказать звонок</button>
+            <div class="form1 hidden-form">
+                <form name="callback-form" method="get" action="/">
+                    <label>Укажите имя:
+                        <input type="text" name="fio" placeholder="ФИО">
+                    </label> 
+                    <label>Укажите телефон:
+                        <input type="text" name="phone" placeholder="Телефон">
+                    </label>
+                    <input type="submit" name="submit" value="Отправить">
+                    <span class="close">x</span>
+                    <p class="message"></p>
+                </form>
+            </div>
+        <script src="main.js"></script>
+    </body>
+</html>
